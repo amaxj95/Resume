@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="Resume/CV">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="resume.js"></script>
+  </head>
+  <header class="site-header">
+    <link rel="stylesheet" href="style.css">
+    <div class="site-identity">
+      <a href="#"><img src="images\logo.png" alt="Site Name" /></a>
+      <h1><a href="#">Jonesa</a></h1>
+    </div>  
+    <nav class="site-navigation">
+      <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Personal Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="bookings.html">Let's Talk</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+  <div>
+    <label>Name:</label>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello {{yourName}}!</h1>
+  </div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+      <li><a href="https://junk-ez.net">Junk-Ez</a></li>
+      <li><a href="https://github.com/jonesa-caci/k8s-sandbox">CACI</a></li>
+  </div>
+  <div class="column">
+      <li><a href="https://deeleyllc.com/">Deeley LLC</a></li>
+      <li><a href="https://www.globalinfotek.com/">Global Infotek</a></li>
+  </div>
+  <div class="column">
+    <li><a href="https://www.boozallen.com/">Booz Allen</a></li>
+    <li><a href="https://eimplus.com/">Eim Plus</a></li>
+  </div>
+  <div class="column">
+    <li><a href="https://www.northropgrumman.com/">Northrop Grumman</a></li>
+    <li><a href="https://www.lockheedmartin.com/">Lockheed Martin</a></li>
+  </div>  
+</div>
+</body>
+</html>
