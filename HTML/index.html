@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="Resume/CV">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="resume.js"></script>
+        <script src="modal.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <header class="site-header">
+        <link rel="stylesheet" href="style.css">
+        <div class="site-identity">
+            <a href="#"><img src="images\logo.png" alt="Site Name" /></a>
+            <h1><a href="#">Jonesa</a></h1>
+        </div>  
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Personal Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="bookings.html">Let's Talk</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>    
+        <table align="center">
+            <thead>
+                <tr>
+                    <th colspan="4">My Experiences</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                    <td><div class="container ">
+                        <a href="https://junk-ez.net"><img src="images/logo.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button><!--Junk-EZ Logo needed--->
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://github.com/jonesa-caci/k8s-sandbox"><img src="images/caci-international--600.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://deeleyllc.com/"><img src="images/deeleyllclogo.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://www.globalinfotek.com/"><img src="images/GITI_logo1-transparent-white.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                </tr>
+                <tr> 
+                    <td><div class="container ">
+                        <a href="https://www.boozallen.com/"><img src="images/booz-allen-hamilton-logo-web.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://eimplus.com/"><img src="images/eimpluslogo.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://www.northropgrumman.com/"><img src="images/northrop-grumman-logo.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                    <td><div class="container ">
+                        <a href="https://www.lockheedmartin.com/"><img src="images/lmlogo.png" width="200" height="150"></a>
+                        <button ng-click="open()">Learn</button>
+                    </div></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
